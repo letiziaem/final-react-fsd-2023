@@ -1,0 +1,44 @@
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container__fluid {
+    width: 100%;
+	background-color: #F7EEE3;
+}
+
+[class*="col-"] {
+	box-sizing: border-box;
+	padding: 8px;
+}
+
+.row {
+	margin: 8px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+}
+
+@for $i from 1 through 12 {
+	.col-lg-#{$i} {
+		width: calc(100% / 12 * $i - 8px);
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	@for $i from 6 through 12 {
+		.col-lg-#{$i} {
+			width: calc(100% - 8px);
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	@for $i from 1 through 12 {
+		.col-lg-#{$i} {
+			width: calc(100% - 8px);
+		}
+	}
+}
