@@ -1,6 +1,12 @@
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
-import SplashContainer from './SplashContainer/SplashContainer';
+import SplashContainer from './SplashContainer/Splash';
+import CategoriesContainer from './CategoriesContainer/Categories';
+import AditionalInfoContainer from './AditionalInfoContainer/AditionalInfo';
+import CollectionsContainer from './CollectionsContainer/Collections';
+import NomadContainer from './NomadContainer/Nomad';
+import CarouselContainer from './CarouselContainer/Carousel';
+import VideoHomepage from './VideoContainer/Video';
 
 export default function Homepage() {
     document.title = "Homepage";
@@ -11,31 +17,19 @@ export default function Homepage() {
 
             <SplashContainer />
 
-            <section className='categories container'>
+            <CategoriesContainer />
 
-            </section>
+            <AditionalInfoContainer />
 
-            <section className='aditional__info container__fluid'>
+            <CollectionsContainer />
 
-            </section>
+            <NomadContainer />
 
-            <section className='collections container'>
+            <CarouselContainer />
 
-            </section>
+            <VideoHomepage />
 
-            <section className='nomad container__fluid'>
-
-            </section>
-
-            <section className='carousel'>
-
-            </section>
-
-            <section className='video-1'>
-
-            </section>
-
-            <Footer className='footer container__fluid' />
+            <Footer />
         </>
     );
 }

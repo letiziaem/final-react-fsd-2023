@@ -1,5 +1,7 @@
 // import styles from 'splash.module.css';
-// import styles from './../../../shared/grid.module.css';
+// import typos from './../../../shared/typography.module.scss';
+// import grids from './../../../shared/grid.module.css';
+//import buttons from './../../../shared/buttons.module.scss';
 
 export default function SplashContainer() {
 

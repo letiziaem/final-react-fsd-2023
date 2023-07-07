@@ -1,14 +1,35 @@
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
+import ProductContainer from './ProductContainer/Product';
+import DimensionsContainer from './DimensionsContainer/Dimensions';
+import AboutContainer from './AboutContainer/About';
+import FeaturesContainer from './FeaturesContainer/Features';
+import VideoProductOne from './VideoContainer/VideoProduct1';
+import VideoProductTwo from './VideoContainer/VideoProduct2';
+import RecommendedContainer from './RecommendedContainer/Recommended';
 
 export default function ProductPage() {
     document.title = "Nomad Sofa";
 
     return (
-        <body>
-            <NavBar className='nav' />
+        <>
+            <NavBar />
 
-            <Footer className='footer container__fluid' />            
-        </body>
+            <ProductContainer />
+
+            <DimensionsContainer />
+
+            <AboutContainer />
+
+            <FeaturesContainer />
+
+            <VideoProductOne />
+
+            <VideoProductTwo />
+
+            <RecommendedContainer />
+
+            <Footer />            
+        </>
     );
 }
