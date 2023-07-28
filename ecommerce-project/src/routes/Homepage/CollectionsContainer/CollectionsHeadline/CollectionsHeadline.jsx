@@ -8,7 +8,7 @@ export default function CollectionsHeadline() {
         <div className={`${grids["row"]}`}>
             <div className={`${grids["col-lg-12"]}`}>
                 <h2 className={`${style.categories__title} ${typos["headline"]}`}>
-                    Clever designs, delivered free
+                    Explore each unique collection
                 </h2>
             </div>
         </div> 

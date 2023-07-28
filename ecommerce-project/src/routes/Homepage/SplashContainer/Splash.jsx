@@ -10,7 +10,7 @@ export default function SplashContainer() {
             <img src={image} className={style.img}/>
             <div className={style.splash__group}>
                 <p className={style.splash__group__text}>Clever designs, delivered free</p>
-                <button className={`${buttons.button}`}>SHOP BEDROOM</button>
+                <button className={`${buttons.button}`}>SHOP SEATING</button>
             </div>
         </section>
     );

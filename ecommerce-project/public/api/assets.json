@@ -52,5 +52,70 @@
             "title": "Ambar Collection",
             "image": "./../src/assets/products/product-4-hover.webp"
         }
+    ],
+    "seatings": [
+        {
+            "id": 11,
+            "title": "Nomad Sofa",
+            "price": "$1599 or as low as $100/mo",
+            "image": "./../src/assets/products/product-1.webp",
+            "hover": "./../../src/assets/products/product-1-hover.webp"
+        },
+        {
+            "id": 12,
+            "title": "Field 3-Piece Sofa",
+            "price": "$1499 or as low as $125/mo",
+            "image": "./../src/assets/products/product-2.webp",
+            "hover": "./../src/assets/products/product-2-hover.webp"
+        },
+        {
+            "id": 13,
+            "title": "Shift Sleeper Sofa",
+            "price": "$1999 or as low as $125/mo",
+            "image": "./../src/assets/products/product-3.webp",
+            "hover": "./../src/assets/products/product-3-hover.webp"
+        },
+        {
+            "id": 14,
+            "title": "Range 3-Piece One Arm Sofa",
+            "price": "$1660 or as low as $104/mo",
+            "image": "./../src/assets/products/product-4.webp",
+            "hover": "./../src/assets/products/product-4-hover.webp"
+        },
+        {
+            "id": 15,
+            "title": "Union 3-Seat Sofa",
+            "price": "$2599 or as low as $127/mo",
+            "image": "./../src/assets/products/product-5.webp",
+            "hover": "./../src/assets/products/product-5-hover.webp"
+        },
+        {
+            "id": 16,
+            "title": "Range 4-Piece Sectional Lounger",
+            "price": "$1799 or as low as $113/mo",
+            "image": "./../src/assets/products/product-6.webp",
+            "hover": "./../src/assets/products/product-6-hover.webp"
+        },
+        {
+            "id": 17,
+            "title": "Nomad Sofa Sectional",
+            "price": "$2090 or as low as $102/mo",
+            "image": "./../src/assets/products/product-7.webp",
+            "hover": "./../src/assets/products/product-7-hover.webp"
+        },
+        {
+            "id": 18,
+            "title": "Field 4-Piece Sectional Lounger",
+            "price": "$1890 or as low as $118/mo",
+            "image": "./../src/assets/products/product-8.webp",
+            "hover": "./../src/assets/products/product-8-hover.webp"
+        },
+        {
+            "id": 19,
+            "title": "Range 4-Piece Open Sectional Double Lounger",
+            "price": "$1535 or as low as $96/mo",
+            "image": "./../src/assets/products/product-9.webp",
+            "hover": "./../src/assets/products/product-9-hover.webp"
+        }
     ]
 }

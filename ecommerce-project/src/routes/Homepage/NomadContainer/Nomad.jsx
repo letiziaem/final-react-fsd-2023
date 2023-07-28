@@ -11,7 +11,7 @@ export default function NomadContainer() {
             <div className={style.nomad__group}>
                 <p className={`${style.nomad__group__title} ${typos["label"]}`}>NOMAD</p>
                 <p className={`${style.nomad__group__text} ${typos["label"]}`}><span className={`${style.bold}`}>The Ambid</span> system works beautifully. It's comfortable, absolutely solid, and looks great.</p>
-                <Link className={`${style.nomad__group__link} ${typos["label"]}`} linkTo="/product">SHOP NOW</Link>
+                <Link to="/product" className={`${style.nomad__group__link} ${typos["label"]}`}>SHOP NOW</Link>
             </div>
             <img className={style.nomad__img} src={image}/>
         </section>

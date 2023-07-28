@@ -1,0 +1,28 @@
+.dimension {
+    margin: 36px auto;
+
+    &__table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: left;
+
+        &__text {
+            color: #9C9C9C;
+        }
+
+        td {
+            border-bottom: 1px solid gainsboro;
+            padding: 12px 0;
+            width: 60%;
+        }
+    }
+
+    &__thumbnail {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}

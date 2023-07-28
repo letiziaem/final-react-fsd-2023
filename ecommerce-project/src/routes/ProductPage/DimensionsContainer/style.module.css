@@ -1,0 +1,23 @@
+.dimension {
+  margin: 36px auto;
+}
+.dimension__table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+.dimension__table__text {
+  color: #9C9C9C;
+}
+.dimension__table td {
+  border-bottom: 1px solid gainsboro;
+  padding: 12px 0;
+  width: 60%;
+}
+.dimension__thumbnail {
+  display: flex;
+  align-items: center;
+}
+.dimension__thumbnail img {
+  width: 100%;
+}/*# sourceMappingURL=style.module.css.map */
