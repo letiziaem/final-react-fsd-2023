@@ -1,0 +1,11 @@
+.video {
+  margin: 36px auto;
+}
+.video__size {
+  width: 100%;
+  margin: 24px auto;
+}
+.video__btn {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.module.css.map */

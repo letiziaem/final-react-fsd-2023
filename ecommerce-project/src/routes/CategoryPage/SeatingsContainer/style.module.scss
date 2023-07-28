@@ -1,0 +1,37 @@
+.seating {
+    margin: 36px auto;
+    
+    &__title {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &__subtitle {
+            max-width: 440px;
+        }
+    }
+
+    &__thumbnail {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        position: relative;
+        float: left;
+
+        &__img {
+            width: 100%;
+        }
+
+        &__hover {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+    }
+}
+
+.seating__thumbnail:hover .seating__thumbnail__hover {
+    display: block;
+}

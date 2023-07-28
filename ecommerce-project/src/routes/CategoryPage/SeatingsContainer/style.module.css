@@ -1,0 +1,32 @@
+.seating {
+  margin: 36px auto;
+}
+.seating__title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.seating__title__subtitle {
+  max-width: 440px;
+}
+.seating__thumbnail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  float: left;
+}
+.seating__thumbnail__img {
+  width: 100%;
+}
+.seating__thumbnail__hover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.seating__thumbnail:hover .seating__thumbnail__hover {
+  display: block;
+}/*# sourceMappingURL=style.module.css.map */

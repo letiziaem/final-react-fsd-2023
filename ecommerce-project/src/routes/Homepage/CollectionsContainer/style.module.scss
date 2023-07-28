@@ -1,0 +1,21 @@
+
+.collections {
+    margin: 36px auto;
+
+    &__thumbnail {
+        position: relative;
+
+        img {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+        }
+
+        &__text {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: white;
+        }
+    }
+}

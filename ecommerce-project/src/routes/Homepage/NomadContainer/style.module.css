@@ -1,0 +1,39 @@
+.nomad {
+  margin: 36px auto;
+  min-height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.nomad__group {
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  width: 284px;
+  display: inline-grid;
+  gap: 24px;
+  z-index: 1;
+}
+.nomad__group__title {
+  text-decoration: underline;
+  letter-spacing: 8px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.nomad__group__text {
+  font-size: 16px;
+  line-height: 1.8;
+  font-style: italic;
+}
+.nomad__group__link {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.nomad__img {
+  position: absolute;
+  right: 0;
+}
+
+.bold {
+  font-weight: bolder;
+}/*# sourceMappingURL=style.module.css.map */

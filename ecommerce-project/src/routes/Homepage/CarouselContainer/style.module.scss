@@ -1,0 +1,18 @@
+
+.carousel {
+
+    &__overflow {
+        margin: 8px auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+    &__thumbnail {
+        width: 300px;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+}

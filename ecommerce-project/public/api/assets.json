@@ -1,0 +1,56 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Seating",
+            "image": "./../src/assets/categories/category-seating.webp"
+        },
+        {
+            "id": 2,
+            "title": "Outdoor",
+            "image": "./../src/assets/categories/category-outdoor.webp"
+        },
+        {
+            "id": 3,
+            "title": "Storage",
+            "image": "./../src/assets/categories/category-storage.webp"
+        },
+        {
+            "id": 4,
+            "title": "Bedroom",
+            "image": "./../src/assets/categories/category-bedroom.webp"
+        },
+        {
+            "id": 5,
+            "title": "Tables",
+            "image": "./../src/assets/categories/category-tables.webp"
+        },
+        {
+            "id": 6,
+            "title": "Rugs",
+            "image": "./../src/assets/categories/category-rugs.webp"
+        }
+    ],
+    "collections": [
+        {
+            "id": 7,
+            "title": "Arbid Collection",
+            "image": "./../src/assets/products/product-1-hover.webp"
+        },
+        {
+            "id": 8,
+            "title": "Lucid Collection",
+            "image": "./../src/assets/products/product-2-hover.webp"
+        },
+        {
+            "id": 9,
+            "title": "Anid Collection",
+            "image": "./../src/assets/products/product-8-hover.webp"
+        },
+        {
+            "id": 10,
+            "title": "Ambar Collection",
+            "image": "./../src/assets/products/product-4-hover.webp"
+        }
+    ]
+}

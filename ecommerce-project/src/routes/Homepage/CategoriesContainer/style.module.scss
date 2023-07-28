@@ -1,0 +1,28 @@
+
+.categories {
+    margin: 36px auto;
+
+    &__col {
+
+        &__thumbnail {
+            position: relative;
+            
+            img {
+                width: 100%;
+                object-fit: cover;
+                aspect-ratio: 16/9;
+            }
+        
+            &__text {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                color: black;
+            }
+        }
+    }    
+}
+
+@media screen and (max-width: 768px) {
+
+}

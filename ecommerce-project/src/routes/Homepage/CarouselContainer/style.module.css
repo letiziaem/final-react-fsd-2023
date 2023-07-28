@@ -1,0 +1,14 @@
+.carousel__overflow {
+  margin: 8px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.carousel__thumbnail {
+  width: 300px;
+  border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.module.css.map */

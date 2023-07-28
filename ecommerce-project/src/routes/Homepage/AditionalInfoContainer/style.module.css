@@ -1,0 +1,38 @@
+.aditional__info {
+  min-height: 256px;
+  margin: 36px auto;
+  display: flex;
+}
+.aditional__info__row {
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.aditional__info__group {
+  max-width: 308px;
+  min-height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.aditional__info__group__img {
+  width: 60%;
+}
+.aditional__info__group__text {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .aditional__info {
+    min-height: 360px;
+  }
+  .aditional__info .row {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .aditional__info__group {
+    max-width: 312px;
+  }
+}/*# sourceMappingURL=style.module.css.map */

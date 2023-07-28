@@ -1,0 +1,45 @@
+
+.nomad {
+    margin: 36px auto;
+    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    &__group {
+        position: absolute;
+        left: 150px;
+        top: 100px;
+        width: 284px;
+        display: inline-grid;
+        gap: 24px;
+        z-index: 1;
+
+        &__title {
+            text-decoration: underline;
+            letter-spacing: 8px;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        &__link {
+            text-decoration: none;
+            font-weight: bolder;
+        }
+    }
+    
+    &__img {
+        position: absolute;
+        right: 0;
+    }
+}
+
+.bold {
+    font-weight: bolder;
+}

@@ -1,0 +1,14 @@
+
+.video {
+    margin: 36px auto;
+
+    &__size {
+        width: 100%;
+        margin: 24px auto;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
+}

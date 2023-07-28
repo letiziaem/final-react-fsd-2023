@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.headline {
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 36px 0px 12px;
+}
+
+.headline_2 {
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  text-align: start;
+  padding: 36px 0px 12px;
+}
+
+.mediumtext {
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+}
+
+.body {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.body_2 {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.text {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.label {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+.smalltext {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}/*# sourceMappingURL=typography.module.css.map */

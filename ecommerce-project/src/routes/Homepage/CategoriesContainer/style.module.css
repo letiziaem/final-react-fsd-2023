@@ -1,0 +1,18 @@
+.categories {
+  margin: 36px auto;
+}
+.categories__col__thumbnail {
+  position: relative;
+}
+.categories__col__thumbnail img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 16/9;
+}
+.categories__col__thumbnail__text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: black;
+}/*# sourceMappingURL=style.module.css.map */
