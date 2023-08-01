@@ -1,0 +1,8 @@
+.about {
+  margin: 36px auto;
+}
+.about__col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}/*# sourceMappingURL=style.module.css.map */

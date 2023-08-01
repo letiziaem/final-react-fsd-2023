@@ -3,7 +3,7 @@ import grids from './../../../../../shared/grid.module.scss';
 import typos from './../../../../../shared/typography.module.scss'
 import { Link } from 'react-router-dom';
 
-export default function ProductsThumbnail({seating, linkTo}) {
+export default function SeatingsThumbnail({seating, linkTo}) {
 
     return (
         <div className={`${grids["col-lg-4"]}`}>

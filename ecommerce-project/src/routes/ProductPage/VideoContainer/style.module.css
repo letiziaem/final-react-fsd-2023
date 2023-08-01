@@ -1,0 +1,25 @@
+.video {
+  margin: 36px auto;
+}
+.video__thumbnail {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.video__description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.video__description__cols {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding-top: 12px;
+}
+.video__description__cols__text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}/*# sourceMappingURL=style.module.css.map */

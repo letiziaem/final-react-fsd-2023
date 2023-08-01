@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__logo {
+  margin-left: 8px;
+}
+.nav__logo__thumbnail img {
+  height: 48px;
+}
+.nav__menu {
+  margin-right: 8px;
+}
+.nav__menu__items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.nav__menu__items__list {
+  position: relative;
+}
+.nav__menu__items__list__title {
+  text-decoration: none;
+  color: black;
+}
+
+.menu__item__dropdown {
+  display: none;
+}
+
+.nav__menu__items__list__name:hover .menu__item__dropdown {
+  display: block;
+}/*# sourceMappingURL=style.module.css.map */

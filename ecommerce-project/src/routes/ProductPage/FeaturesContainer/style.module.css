@@ -1,0 +1,11 @@
+.features {
+  margin: 36px auto;
+}
+.features__thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features__thumbnail__img {
+  width: 100%;
+}/*# sourceMappingURL=style.module.css.map */

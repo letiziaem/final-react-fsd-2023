@@ -1,0 +1,32 @@
+.recommended {
+  margin: 36px auto;
+}
+.recommended__title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.recommended__title__subtitle {
+  max-width: 440px;
+}
+.recommended__thumbnail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  float: left;
+}
+.recommended__thumbnail__img {
+  width: 100%;
+}
+.recommended__thumbnail__hover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.recommended__thumbnail:hover .recommended__thumbnail__hover {
+  display: block;
+}/*# sourceMappingURL=style.module.css.map */

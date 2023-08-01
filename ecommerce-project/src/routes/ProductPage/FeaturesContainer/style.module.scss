@@ -1,0 +1,14 @@
+
+.features {
+    margin: 36px auto;
+
+    &__thumbnail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__img {
+            width: 100%;
+        }
+    }
+}

@@ -117,5 +117,63 @@
             "image": "./../src/assets/products/product-9.webp",
             "hover": "./../src/assets/products/product-9-hover.webp"
         }
+    ],
+    "products": [
+        {
+            "id": 20,
+            "title": "Block Nomad Sofa",
+            "price": "$1599 + Free Shipping",
+            "color": "Crushed Gravel",
+            "thumbnail": "./../src/assets/product-page/sofa-grey.webp",
+            "images": [
+                "./../../src/assets/product-page/sofa-grey-2.webp",
+                "./../../src/assets/product-page/sofa-grey-3.webp",
+                "./../../src/assets/product-page/sofa-img2.webp",
+                "./../../src/assets/product-page/sofa-img3.webp",
+                "./../../src/assets/product-page/sofa-img4.webp"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Block Nomad Sofa",
+            "price": "$1599 + Free Shipping",
+            "color": "Brick Red",
+            "thumbnail": "./../src/assets/product-page/sofa-red.webp",
+            "images": [
+                "./../../src/assets/product-page/sofa-red-2.webp",
+                "./../../src/assets/product-page/sofa-red-3.webp",
+                "./../../src/assets/product-page/sofa-img2.webp",
+                "./../../src/assets/product-page/sofa-img3.webp",
+                "./../../src/assets/product-page/sofa-img4.webp"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Block Nomad Sofa",
+            "price": "$1599 + Free Shipping",
+            "color": "Navy Blue",
+            "thumbnail": "./../src/assets/product-page/sofa-navy.webp",
+            "images": [
+                "./../../src/assets/product-page/sofa-navy-2.webp",
+                "./../../src/assets/product-page/sofa-navy-3.webp",
+                "./../../src/assets/product-page/sofa-img2.webp",
+                "./../../src/assets/product-page/sofa-img3.webp",
+                "./../../src/assets/product-page/sofa-img4.webp"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Block Nomad Sofa",
+            "price": "$1599 + Free Shipping",
+            "color": "Charcoal",
+            "thumbnail": "./../src/assets/product-page/sofa-black.webp",
+            "images": [
+                "./../../src/assets/product-page/sofa-black-2.webp",
+                "./../../src/assets/product-page/sofa-black-3.webp",
+                "./../../src/assets/product-page/sofa-img2.webp",
+                "./../../src/assets/product-page/sofa-img3.webp",
+                "./../../src/assets/product-page/sofa-img4.webp"
+            ]
+        }
     ]
 }

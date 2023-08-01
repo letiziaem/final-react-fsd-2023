@@ -1,5 +1,6 @@
 import style from './style.module.scss';
 import grids from './../../../shared/grid.module.scss';
+
 import icon6 from "./../../../assets/icons/icon-6.png";
 import icon7 from "./../../../assets/icons/icon-7.png";
 import icon8 from "./../../../assets/icons/icon-8.png";

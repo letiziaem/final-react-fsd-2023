@@ -1,8 +1,8 @@
 import grids from "../../../../shared/grid.module.scss";
-import SeatingsThumbnail from "./SeatingssThumbnail/SeatingsThumbnail";
+import RecommendedThumbnail from "./RecommendedThumbnail/RecommendedThumbnail";
 import { useEffect, useState } from "react";
 
-export default function SeatingsCards() {
+export default function RecommendedCards() {
     const [seatings, setSeatings] = useState([]);
 
     useEffect(() => {
@@ -13,8 +13,8 @@ export default function SeatingsCards() {
 
     return (
         <div className={`${grids["row"]}`}>
-            {seatings.map((seating) => (
-                <SeatingsThumbnail key={seating.id} linkTo="/product" seating={seating}/>
+            {seatings.slice(1, 4).map((seating) => (
+                <RecommendedThumbnail key={seating.id} linkTo="/product" seating={seating}/>
             ))}
         </div>
     )

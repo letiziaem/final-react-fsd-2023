@@ -1,0 +1,30 @@
+
+.video {
+    margin: 36px auto;
+
+    &__thumbnail {
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &__cols {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            padding-top: 12px;
+
+            &__text {
+                display: flex;
+                flex-direction: column;
+                gap: 8px; 
+            }
+        }
+    }
+}
